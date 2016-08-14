@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,15 @@
     "url": "https://github.com/cleong14/fitbit/issues"
   },
   "homepage": "https://github.com/cleong14/fitbit#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "hellojs": "^1.13.4",
+    "path": "^0.12.7",
+    "simple-oauth2": "^0.8.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.7.0"
+  }
 }
